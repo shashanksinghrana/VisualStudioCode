@@ -10,6 +10,7 @@ import { Component, OnInit } from '@angular/core';
 export class RecipesListComponent implements OnInit {
 
   recipes: Recipe[] = [
+    new Recipe('A Test Recipe', 'Test Description','http://www.seriouseats.com/images/2016/05/20160503-fava-carrot-ricotta-salad-recipe-1.jpg'),
     new Recipe('A Test Recipe', 'Test Description','http://www.seriouseats.com/images/2016/05/20160503-fava-carrot-ricotta-salad-recipe-1.jpg')
   ];
 
