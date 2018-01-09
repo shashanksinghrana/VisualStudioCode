@@ -24,7 +24,10 @@ export class RecipeService {
   getRecipe(){
     return this.recipes.slice();
   }
-
+    
+  getRecipebyId(index: number){
+    return this.recipes[index];
+  }
   constructor() { }
 
 }
